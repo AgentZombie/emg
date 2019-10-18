@@ -44,7 +44,7 @@ func (s *Server) HTML(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte(`<html>
 	<head>
 <script>
-const totalQuestions = 3;
+const totalQuestions = 20;
 let asked = 0;
 let correct = 0;
 
